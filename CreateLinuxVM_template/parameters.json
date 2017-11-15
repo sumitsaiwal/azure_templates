@@ -1,0 +1,51 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "southeastasia"
+        },
+        "virtualMachineName": {
+            "value": "UbuntuMachine"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_B1s"
+        },
+        "adminUsername": {
+            "value": "sumit"
+        },
+        "virtualNetworkName": {
+            "value": "Sumit_RG"
+        },
+        "networkInterfaceName": {
+            "value": "ubuntumachine343"
+        },
+        "diskSizeGB": {
+            "value": "30"
+        },
+        "networkSecurityGroupName": {
+            "value": "UbuntuMachine-nsg"
+        },
+        "adminPassword": {
+            "value": "passport@123"
+        },
+        "addressPrefix": {
+            "value": "172.16.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "172.16.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "UbuntuMachine-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
